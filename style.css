@@ -1,0 +1,81 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: rgba(30, 25, 53, 0.822);
+}
+
+#telaJogo{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(187, 187, 187);
+}
+
+#forca{
+    position: relative;
+    top: 0px;
+    left: 0px;
+    height: 250px;
+}
+
+#numLetras{
+    height: 80px;
+    width: 100px;
+    position: relative;
+    background-color: rgb(38, 110, 38);
+    left: 395px;
+    top: -250px;
+    border: 1px solid rgba(0, 0, 0, 0.486);
+    border-radius: 10px;
+    font-size: 20px;
+    color: white;
+    text-align: center;
+    padding-top: 0px;
+}
+
+#palavraOculta{
+    height: 80px;
+    width: 300px;
+    background-color: rgb(71, 184, 60);
+    position: relative;
+    top:-60px;
+    margin: 10px;
+    border-radius: 4px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 5px;
+    border: 1px solid black;
+}
+
+.capsula{
+    height: 30px;
+    width: 20px;
+    border-bottom: 1px solid black;
+}
+
+#container{
+    width: 300px;
+    height: 50px;
+    position:relative;
+    top: -70px;
+    left: 10px;
+    border-radius: 5px;
+    background-color: rgb(53, 53, 53);
+    color: white;
+    text-align: center;
+}
+
+#container h2{
+    border-bottom: 1px solid black;
+}
